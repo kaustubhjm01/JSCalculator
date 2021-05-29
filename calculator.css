@@ -1,0 +1,196 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+h1{
+    color: indigo;
+}
+.display{
+    /* border: 2px solid green; */
+    height: 60px;
+    background-color: #281c1cb5;
+    width:100%;
+    
+    
+    
+}
+.display #screen{
+    display: inline-block;
+color: white;
+font-size: 30px;
+background: none;
+width: 72%;
+position: relative;
+top: 16%;
+left: 27%;
+border: 3px solid greenyellow;
+border: none;
+}
+.calculator{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    border: 2px solid black;
+    height: 400px;
+    width: 30%;
+    background-color: rgb(233, 233, 236);
+    background-color: rgb(239, 225, 246), 225, 246)
+}
+h1{
+text-align: center;
+}
+.buttons{
+    position: absolute;
+    top: 25%;
+    padding: 2px;
+margin: 0px;
+/* border: 2px solid black; */
+left: 16%;
+/* display: flex; */
+/* justify-content: center; */
+}
+.button1{
+    margin: 10px;
+}
+.button1 button{
+    width: 50px;
+    height: 43px;
+    color: white;
+    background-color: #281c1cb5;
+    font-size: 16px;
+    margin-right: 19px;
+    border-radius: 35%;
+
+}
+.button2 button{
+    width: 50px;
+    height: 43px;
+    color: white;
+    background-color: #281c1cb5;
+    font-size: 16px;
+    margin-right: 19px;
+    margin-top: 10px;
+    border-radius: 35%;
+
+}
+.button3 button{
+    width: 50px;
+    height: 43px;
+    color: white;
+    background-color: #281c1cb5;
+    font-size: 16px;
+    margin-right: 19px;
+    margin-top: 10px;
+    border-radius: 35%;
+
+}
+.button4 button{
+    width: 50px;
+    height: 43px;
+    color: white;
+    background-color: #281c1cb5;
+    font-size: 16px;
+    margin-right: 19px;
+    margin-top: 10px;
+    border-radius: 35%;
+
+}
+.button4 button:hover{
+    background-color: rgb(32, 122, 32);
+    background-color: greenyellow
+
+}
+
+.button4 button :nth-child(9):hover{
+    background-color: rgb(32, 122, 32);
+    background-color: rgb(124, 250, 124);
+    background-color: greenyellow
+    
+}
+.button1 button:hover{
+    background-color: rgb(32, 122, 32);
+    background-color: rgb(124, 250, 124);
+    background-color: greenyellow
+
+}
+.button2 button:hover{
+    background-color: rgb(32, 122, 32);
+    background-color: rgb(124, 250, 124);
+    background-color: greenyellow
+
+}
+.button3 button:hover{
+    background-color: rgb(124, 250, 124);
+    background-color: greenyellow
+
+}
+.button5 button:hover{
+    
+    transform: scale(1.5);
+
+}
+.button2{
+    margin: 10px;
+}
+.button3{
+    margin: 10px;
+}
+.button4{
+    margin: 10px;
+}
+.button5{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 97%;
+top: -1%;
+    /* border: 2px solid slateblue; */
+    padding: 8px;
+}
+.button4 #changer{
+    background-color: rgb(245, 10, 147);
+    color: wheat;
+}
+.button4 #changer:hover{
+    transform: scale(1.5);
+    background-color: rgb(245, 10, 147);
+    color: wheat;
+}
+.button6{
+    /* float: right; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* left: 77%; */
+    left: -31%;
+top: -1%;
+    /* border: 2px solid slateblue; */
+    padding: 8px;
+}
+.button5 button{
+    width: 50px;
+height: 37px;
+margin: 7px;
+    margin-top: 7px;
+color: ew;
+background-color: orange;
+color: white;
+font-size: 19px;
+margin-top: 5px;
+border-radius: 35%;
+
+}
+.button6 button{
+    width: 50px;
+height: 37px;
+margin: 7px;
+    margin-top: 7px;
+cursor: pointer;
+background-color: orange;
+color: white;
+font-size: 19px;
+margin-top: 5px;
+border-radius: 35%;
+
+}
